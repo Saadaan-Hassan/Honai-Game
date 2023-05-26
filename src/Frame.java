@@ -1,5 +1,4 @@
 import javafx.animation.AnimationTimer;
-import javafx.geometry.Pos;
 import javafx.scene.control.Slider;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
