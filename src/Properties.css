@@ -1,0 +1,85 @@
+.frame{
+    -fx-background-color: rgb(63, 59, 59);
+    -fx-font-family: "Roboto Light", sans-serif;
+    -fx-font-size: 16px;
+    -fx-vgap: 50px;
+    -fx-hgap: 100px;
+    -fx-alignment: center;
+}
+
+.tower-container{
+    /*-fx-background-color: rgb(98, 91, 91);*/
+    -fx-background-color: rgb(96, 91, 91);
+    -fx-border-style: solid;
+    -fx-border-color: #000000;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+
+    -fx-padding: 50px 0px;
+    -fx-alignment: center;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 150px;
+}
+
+.tower{
+    -fx-fill: Black;
+}
+
+.disk-container{
+    -fx-pref-width: 200px;
+    -fx-pref-height: 200px;
+    -fx-alignment: bottom-center;
+}
+
+.popup{
+    -fx-background-color: rgb(45, 43, 43);
+    -fx-background-radius: 10px;
+    -fx-alignment: center;
+    -fx-pref-width: 500px;
+    -fx-pref-height: 300px;
+    -fx-spacing: 50px;
+    -fx-font-size: 20px;
+}
+
+.text{
+    -fx-fill: white;
+}
+
+.slider{
+    -fx-show-tick-marks: true;
+    -fx-show-tick-labels: true;
+    -fx-tick-label-fill: white;
+    -fx-major-tick-unit: 1;
+    -fx-minor-tick-count: 0;
+    -fx-pref-width: 300;
+}
+
+.btn-container{
+    -fx-alignment: center;
+    -fx-spacing: 40px;
+    -fx-padding: 10px;
+}
+
+/* Buttons */
+.btn{
+    -fx-background-color: #36b728;
+    -fx-border: none;
+    -fx-text-fill: white;
+    -fx-padding: 10px 25px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 16px;
+    -fx-margin: 4px 2px;
+    -fx-cursor: pointer;
+    -fx-border-radius: 8px;
+}
+
+.exit-btn{
+    -fx-background-color: #c42626;
+}
+
+.restart-btn{
+    -fx-background-color: #20aba6;
+}
